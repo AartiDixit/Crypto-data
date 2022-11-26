@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 92%;
+    margin-left: 60px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    border-bottom: 1px solid gray;
+    font-size: 25px;
+}
+
+img {
+    width: 50px;
+}
