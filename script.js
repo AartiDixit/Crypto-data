@@ -8,7 +8,7 @@ async function fetchData() {
             let tableData = "";
             objectData.map((values) => {
                 tableData += ` <tr>
-                <td width="15px"><img src="${values.image}"></td>
+                <td width="20px"><img src="${values.image}"></td>
                 <td width="250px">${values.name}</td>
                 <td width="200px">${values.symbol}</td>
                 <td width="200px">$${values.current_price}</td>
