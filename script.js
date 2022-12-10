@@ -13,7 +13,7 @@ async function fetchData() {
                 <td width="200px">${values.symbol}</td>
                 <td width="200px">$${values.current_price}</td>
                 <td width="200px">$${values.total_volume}</td>
-                <td width="150px">${values.market_cap_change_percentage_24h}%</td>
+               <td class="${values.price_change_percentage_24h > 0 ? "positiveValues": "negativeValues"}">${values.price_change_percentage_24h}</td>
                 <td>Mkt Cap : $${values.market_cap}</td>
               </tr>`
             })
